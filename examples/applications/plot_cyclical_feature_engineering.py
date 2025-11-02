@@ -3,13 +3,12 @@
 Time-related feature engineering
 ================================
 
-This notebook introduces different strategies to leverage time-related features
-for a bike sharing demand regression task that is highly dependent on business
-cycles (days, weeks, months) and yearly season cycles.
-
-In the process, we introduce how to perform periodic feature engineering using
-the :class:`sklearn.preprocessing.SplineTransformer` class and its
-`extrapolation="periodic"` option.
+本笔记本介绍了利用时间相关功能的不同策略
+对于一个高度依赖业务的共享单车需求回归任务
+周期（天、周、月）和每年的季节周期。
+在此过程中，我们介绍如何使用
+sklearn.preprocessing.Spline Transformer 类及其
+`extrapolation="periodic"` 选项。
 
 """
 
